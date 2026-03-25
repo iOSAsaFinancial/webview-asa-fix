@@ -4,13 +4,6 @@
   "description": "Minimal fix for react-native-webview: blocks ERR_UNKNOWN_URL_SCHEME on Android",
   "main": "src/index.ts",
   "react-native": "src/index.ts",
-  "files": [
-    "android/src",
-    "android/build.gradle",
-    "android/gradle.properties",
-    "src",
-    "react-native.config.js"
-  ],
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
