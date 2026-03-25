@@ -1,0 +1,24 @@
+{
+  "name": "react-native-webview-asa",
+  "version": "1.0.0",
+  "description": "Minimal fix for react-native-webview: blocks ERR_UNKNOWN_URL_SCHEME on Android",
+  "main": "src/index.ts",
+  "react-native": "src/index.ts",
+  "files": [
+    "android/src",
+    "android/build.gradle",
+    "android/gradle.properties",
+    "src",
+    "react-native.config.js"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-webview": ">=13.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ASAFINANCIAL/react-native-webview-asa.git"
+  },
+  "license": "MIT"
+}
